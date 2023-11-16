@@ -1,0 +1,15 @@
+{
+    "name": "summer/mywebproject",
+    "type": "project",
+    "require": {
+        "php": ">=7.3",
+        "telegram-bot/api": "^2.5",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TelegramBot\\Api\\": "src"
+        }
+    }
+}

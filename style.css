@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+.chat-container {
+    right: 25%;
+    top: 15%;
+    background-color: lightgray;
+    position: absolute;
+    width: 800px;
+    height: 500px;
+}
+
+.send-input {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    font-size: 18px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius:5px;
+}
